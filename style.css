@@ -1,0 +1,394 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  background: #FFFDFB;
+}
+
+.container-header {
+  width: 100vw;
+  height: 102px;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.logo-header {
+  margin: 28px 30px 28px 184px;
+  background: transparent;
+  height: 46px;
+  width: auto;
+
+}
+
+.header {
+  font-size: 18px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: auto 100px;
+  color: #2C2523;
+  text-decoration: none;
+
+}
+
+.button-header {
+  cursor: pointer;
+  width: 185px;
+  height: 54px;
+  position: fixed;
+  left: 1150px;
+  top: 28px;
+}
+
+
+.container-principal {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 550px;
+  margin-bottom: 225px;
+  margin: 120px 120px 0px 160px;
+}
+
+.container-text-principal {
+  width: 544px;
+  height: 435px;
+  margin: 57px 64px 57px 24px;
+}
+
+#box-text {
+  margin-bottom: 14.5px;
+  text-transform: uppercase;
+  font-size: 14.4px;
+  color: #8E6E5E;
+  line-height: 23px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin-bottom: 24.5px;
+  height: 194px;
+  width: auto;
+  font-size: 56px;
+  line-height: 64.4px;
+  color: #2C2523;
+}
+
+#box-specialties {
+  margin: 9px 16px 40px 0;
+  color: #6E6562;
+  width: 464px;
+  height: 85px;
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "Inter", sans-serif;
+
+}
+
+.button-principal {
+  width: 275px;
+  height: 54px;
+  background: #1C1C1C;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: #1c1c1c solid 1px;
+}
+
+.img-principal {
+  width: 544px;
+  height: 550px;
+  border-radius: 16px;
+  margin-right: 24px;
+}
+
+.container-services {
+  margin: 99px 160px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 24px 48px;
+  line-height: 64px;
+  font-weight: lighter;
+}
+
+.container-services-content {
+  display: flex;
+  flex-direction: row;
+  width: 1152px;
+  height: 643px;
+  margin: 0 24px
+}
+
+.container-nail {
+  width: 560px;
+  height: 642px;
+  border-radius: 16px;
+  margin-right: 32px;
+  background: #FFFFFF;
+}
+
+.img-nail {
+  width: 560px;
+  height: 60%;
+  border-radius: 16px 16px 0px 0px;
+
+}
+
+.container-eyebrow {
+  width: 560px;
+  height: 642px;
+  border-radius: 16px;
+  background: #FFFFFF;
+}
+
+.img-eyebrow {
+  width: 560px;
+  height: 60%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+h3 {
+  font-weight: lighter;
+  color: #2C2523;
+  font-size: 28.8px;
+  margin: 39px 40px 15px;
+  line-height: 24.3px;
+}
+
+.description-services {
+  margin: 0px 40px 15px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #6E6562;
+}
+
+.button-catalog {
+  width: 480px;
+  height: 54px;
+  margin: 0px 40px 0px;
+  cursor: pointer;
+}
+
+.container-advantages {
+  background: #F9F5F2;
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+
+}
+
+.container-materials {
+  width: 357px;
+  height: 226px;
+  background: transparent;
+  margin: 80px 32px 80px 184px;
+}
+
+
+.container-experience {
+  width: 357px;
+  height: 226px;
+  background: transparent;
+  margin: 80px 32px 80px 0px;
+}
+
+.container-products {
+  width: 357px;
+  height: 226px;
+  background: transparent;
+  margin: 80px 00px 80px 0px;
+}
+
+.box-advantages {
+  background: transparent;
+  margin: 0px 20px 11px;
+  line-height: 33.3px;
+  font-size: 20.8px;
+  font-weight: lighter;
+  color: #2C2523;
+}
+
+.description-advantages {
+  background: transparent;
+  margin: 0px 20px 20px;
+  color: #6E6562;
+  font-family: "Inter", sans-serif;
+  font-size: 14.4px;
+  line-height: 23px;
+}
+
+.advantages-icon {
+  background: transparent;
+  margin: 20px 154px 11px;
+
+}
+
+
+.container-reviews {
+  margin: 99px 160px;
+}
+
+.icon-avaliation {
+  margin: 25px 33px 0px;
+  position: absolute;
+  background: transparent;
+}
+
+.container-depoiments {
+  display: flex;
+  width: 1152px;
+  height: 229px;
+  margin: 48px 24px 0px;
+
+}
+
+.container-review-1 {
+  width: 368px;
+  height: 229px;
+  margin-right: 24px;
+  border: #ECE6E2 solid 1px;
+  border-radius: 8px;
+}
+
+.container-review-2 {
+  width: 368px;
+  height: 229px;
+  margin-right: 24px;
+  border: #ECE6E2 solid 1px;
+  border-radius: 8px;
+}
+
+.container-review-3 {
+  border: #ECE6E2 solid 1px;
+  border-radius: 8px;
+  width: 368px;
+  height: 229px;
+}
+
+.box-review {
+  width: 301px;
+  height: 98.69px;
+  margin: 51px 33px 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 15.2;
+  font-style: italic;
+  line-height: 24.3px;
+  color: #2C2523;
+}
+
+h6 {
+  margin: 20px 0 33px 33px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 13.6px;
+  color: #2C2523;
+  line-height: 21.8px;
+
+}
+
+.container-footer {
+  background: #2C2523;
+  width: 100vw;
+  height: 340px;
+}
+
+.container-footer-info {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 158px;
+  margin: 0px 200px 150px;
+
+}
+
+.container-footer-content {
+  background: transparent;
+  width: 300px;
+  height: 229px;
+  margin-right: 100px;
+}
+
+.name-footer {
+  font-weight: 700;
+  color: #FFFDFB;
+  font-size: 23px;
+  font-family: "Playfair Display", serif;
+  text-transform: none;
+  margin-top: 40px;
+}
+
+.logo-footer {
+  background: transparent;
+  height: 46px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.container-footer-service {
+  background: transparent;
+  width: 368px;
+  height: 229px;
+  margin-right: 7px;
+  margin-top: 40px;
+
+}
+
+.container-footer-location {
+  background: transparent;
+  width: 368px;
+  height: 229px;
+  margin-top: 40px;
+
+
+}
+
+h4 {
+  background: transparent;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  color: #FFFDFB;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+
+.box-footer {
+  background: transparent;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14.4px;
+  color: #A89E9A;
+}
+
+.text-rights {
+  text-align: center;
+  background: transparent;
+  color: #8C807C;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  right: 32px;
+  bottom: 30px;
+  width: 60px;
+  background: transparent;
+}
+
+iframe {
+  border-radius: 16px;
+}
